@@ -43,7 +43,7 @@ nav{
     height: 1000px;
     position: absolute;
     top: 50%;
-    left: 0%;
+    left: -10%;
     transform: translateY(-50%);
 }
 #circle{
@@ -53,8 +53,8 @@ nav{
     top: 0;
     left: 0;
     border-radius: 50%;
-    
-    
+    transform: rotate(0deg);
+    transition: 1s;
 }
 .feature img{
     width: 70px; 
@@ -65,10 +65,10 @@ nav{
     color: #fff;
 }
 .feature div{
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .feature div p{
-    margin-top: 8px;
+    margin-top: 15px;
 }
 .one{
     top: 450px;
@@ -77,23 +77,26 @@ nav{
 .two{
     top: 150px;
     left: 350px;
+    transform: rotate(-90deg);
    
 }
 .three{
     bottom: 450px;
     left: 50;
+    transform: rotate(-180deg);
     
 }
 .four{
     bottom: 150px;
     right: 350px;
+    transform: rotate(-270deg);
     
 }
 .mobile{
-    width: 2oopx;
+    width: 250px;
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 15%;
     transform: translateY(-50%);
     z-index: 1;
 }
@@ -109,14 +112,24 @@ nav{
     color: #fff;
 }
 #upBtn{
-    width: 15px;
+    width: 25px;
     cursor: pointer;   
 }
 #downBtn{
-    width: 15px;
+    width: 25px;
     cursor: pointer; 
     transform: rotate(180deg);  
 }
-
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
 
