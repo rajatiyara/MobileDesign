@@ -27,6 +27,7 @@ nav{
 .nav-links{
     flex: 1;
     text-align: right;
+
 }
 .nav-links ul li{
     width: 40px;
@@ -37,6 +38,9 @@ nav{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    
+
 }
 .imformation{
     width: 1000px;
